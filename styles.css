@@ -1,46 +1,77 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #7c98b3;
+  background-color: #ebebeb;
   margin: 0;
-}
-
-h2 {
-  font-size: 24px;
-  margin: 20px 0 8px 0;
-}
-
-h3 {
-  font-size: 20px;
-  margin: 0;
-  margin-bottom: 4px;
-}
-
-p {
-  margin: 0;
-  margin-bottom: 2px;
-}
-
-ul {
-  margin-top: 0;
 }
 
 .portfolio {
   width: 1200px;
-  margin: 48px auto;
-  /* border: 2px solid rgb(44, 44, 44);
-  border-radius: 4px; */
+  margin: 100px auto;
   box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
   display: flex;
 }
 
 .biodata {
-  background-color: #f0e5d4;
+  background-color: #cad2c5;
   width: 30%;
   padding: 24px;
 }
 
+.content {
+  background-color: #fff9f1;
+  width: 70%;
+  padding: 24px 48px;
+}
+
+h2 {
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+.biodata h2 {
+  color: #fff9f1;
+}
+
+.content h2 {
+  font-size: 36px;
+  color: #cad2c5;
+}
+
+h3 {
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+.box-content h3 {
+  font-size: 20px;
+}
+
+.box-content h4 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.languages h3 {
+  font-size: 22px;
+  text-decoration: underline;
+  margin-right: 0;
+  width: 120px;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 14px;
+  font-size: 20px;
+}
+
+.education p {
+  margin: 4px;
+}
+
 .me {
   text-align: center;
+  margin: 28px 0;
 }
 
 .me img {
@@ -53,7 +84,7 @@ ul {
 .contact-info img {
   width: 20px;
   height: 20px;
-  margin-right: 12px;
+  margin-right: 18px;
 }
 
 .contact-info ul {
@@ -63,7 +94,7 @@ ul {
 
 .contact-info div {
   display: flex;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 .education ul {
@@ -80,17 +111,7 @@ ul {
   padding: 0;
 }
 
-.content {
-  background-color: #fff9f1;
-  width: 70%;
-  padding: 48px;
-}
-
-.content h2 {
-  font-size: 32px;
-  text-decoration: underline;
-}
-
+/* sudah dibenerin */
 .box {
   display: flex;
   justify-content: space-between;
@@ -102,21 +123,8 @@ ul {
   margin: 4px 0;
 }
 
-.box-content h3 {
-  font-size: 24px;
-}
-
-.box-content h4 {
-  font-size: 16px;
-  margin: 0;
-}
-
-.box-info p {
-  text-align: end;
-}
-
-.languages .box-info p {
-  width: 200px;
+.languages .box {
+  justify-content: flex-start;
 }
 
 footer {
